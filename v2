@@ -1,0 +1,13 @@
+local player = game.Player.LocalGroup.Character
+if player:findGroup("Da Hood Stars") then
+    player.Group.Join.Id = "8068202"
+    player.Group.Join.Crew = "https://www.roblox.com/groups/8068202/Da-Hood-Stars#!/about"
+    player.Group.Rank = "「 Star Player 」"
+    player.Group.Rank.Number = "1"
+    load.crew.ui.joinId = "8068202"
+    bypass.crew.ui = True
+    Game.LocalParent.player = "Da Hood"
+    da_hood.link = "https://www.roblox.com/games/2788229376/Da-Hood"
+    da_hood.Da_Hood_Entertainment.GroupId = "4698921"
+    da_hood.Da_Hood_Entertainment.Group = "https://www.roblox.com/groups/4698921/Da-Hood-Entertainment#!/about"
+end
